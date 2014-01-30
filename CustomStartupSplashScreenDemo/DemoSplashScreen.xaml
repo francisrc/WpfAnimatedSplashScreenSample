@@ -1,0 +1,11 @@
+﻿<Window x:Class="CustomStartupSplashScreenDemo.DemoSplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DemoSplashScreen" Height="300" Width="300" ShowInTaskbar="False" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="#FFF73A3A">
+    <Grid>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="168,57,0,0" Name="txtBoxApplicationLoadCompletePercentVal" Text="0" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="51,12,0,0" Name="textBlock1" Text="Custom Splash Screen Demo" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="51,58,0,0" Name="textBlock2" Text="Loading completed" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="185,57,0,0" Name="textBlock3" Text="%" VerticalAlignment="Top" />
+    </Grid>
+</Window>
