@@ -47,6 +47,7 @@ namespace CustomStartupSplashScreenDemo
                 manualResetEventSplashScreen.WaitOne();
 
                 var application = new App(applicationSplashScreen);
+                application.InitializeComponent();
                 application.Run();
         }
 
